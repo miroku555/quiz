@@ -2,8 +2,10 @@
   %head
   %body
     %center
-      %H1 クイズゲーム00
-      %p 問1：1+1＝?
+      %H1 クイズゲーム(how to~)
+      %p (例)問0：日本の首都は?
+      %p 1.東京,2.大阪,3.名古屋,4.島根
+      %p 上記より回答を選び入力フォームに数字を半角で入力
       %form{:action => "/quiz",:method => "post"}
         %input{:type => "text",:name => "quiz"}
         %input{:type => "submit"}
