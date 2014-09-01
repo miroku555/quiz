@@ -1,0 +1,10 @@
+%html
+  %head
+  %body
+    %center
+      %H1 クイズゲーム
+      %p 問4：イタリアの学者で、その業績から天文学の父と呼ばれている、「それでも地球は動いている」と言ったことで有名な人物は誰？
+      %p 1.ジェイソン,2.ガリレオ,3.クラーク博士,4.ウィリアム・テル
+      %form{:action => "/quiz04",:method => "post"}
+        %input{:type => "text",:name => "quiz04"}
+        %input{:type => "submit"}

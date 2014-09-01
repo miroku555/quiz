@@ -1,0 +1,10 @@
+%html
+  %head
+  %body
+    %center
+      %H1 クイズゲーム
+      %p 問2:ブランデンブルク門がある、ドイツの首都といえばどこでしょう?
+      %p 1.ミュンヘン,2.ニュルンベルク,3.ベルリン,4.フランクフルト・アム・マイン
+      %form{:action => "/quiz02",:method => "post"}
+        %input{:type => "text",:name => "quiz02"}
+        %input{:type => "submit"}

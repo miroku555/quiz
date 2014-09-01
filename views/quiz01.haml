@@ -1,0 +1,11 @@
+%html
+  %head
+  %body
+    %center
+      %H1 クイズゲーム
+      %p 問1:世界遺産にも登録されている、総延長が８０００ｋｍをも越える中国の遺跡は何？
+      %p 1.マチュピチュ,2.万里の長城,3.天空の城,4.パルテノン神殿
+     
+      %form{:action => "/quiz01",:method => "post"}
+        %input{:type => "text",:name => "quiz01"}
+        %input{:type => "submit"}

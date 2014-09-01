@@ -1,0 +1,10 @@
+%html
+  %head
+  %body
+    %center
+      %H1 クイズゲーム
+      %p 問3：最優秀選手をアルファベット３文字でいうと何でしょう？
+      %p 1.MVP,2.AED,3.LED,4.VIP
+      %form{:action => "/quiz03",:method => "post"}
+        %input{:type => "text",:name => "quiz03"}
+        %input{:type => "submit"}

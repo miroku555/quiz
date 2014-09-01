@@ -1,0 +1,10 @@
+%html
+  %head
+  %body
+    %center
+      %H1 クイズゲーム
+      %p 問5：四国で一番面積が広いのは高知県。では九州で一番面積が広いのは何県？
+      %p 1.長崎県,2.福岡県,3.大分県,4.熊本県,5.鹿児島県,6.宮崎県
+      %form{:action => "/quiz05",:method => "post"}
+        %input{:type => "text",:name => "quiz05"}
+        %input{:type => "submit"}
